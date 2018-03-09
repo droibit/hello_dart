@@ -9,6 +9,8 @@ main() {
 
   var awesomeLib = new AwesomeLibrary();
   print('awesomeLibrary: ${awesomeLib.isAwesome}');
+  var greatLib = new GreatLibrary(name: "Great", version: "1.0.0");
+  print('$greatLib');
 
   final v2 = new Vector2(1.0, 2.0);
   print("v2: $v2");
