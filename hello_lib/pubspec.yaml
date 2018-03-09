@@ -1,4 +1,4 @@
-name: hello_dart
+name: hello_lib
 description: A starting point for Dart libraries or applications.
 version: 0.0.1
 #homepage: https://www.example.com
@@ -6,11 +6,6 @@ version: 0.0.1
 
 environment:
   sdk: '>=1.20.1 <2.0.0'
-
-#dependencies:
-dependencies:
-  hello_lib:
-    path: ./hello_lib
 
 dev_dependencies:
   test: ^0.12.0
